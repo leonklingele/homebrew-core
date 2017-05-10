@@ -38,13 +38,13 @@ class Git < Formula
   end
 
   resource "html" do
-    url "https://www.kernel.org/pub/software/scm/git/git-htmldocs-2.12.2.tar.xz"
-    sha256 "6f656085c2fdca94df1cc3eb8624c38099f920318c428e34ef0333ecf7f4cd59"
+    url "https://www.kernel.org/pub/software/scm/git/git-htmldocs-2.13.0.tar.xz"
+    sha256 "d5ddfb8eedd5a53c0e46e183ed1513dbdd4f5d5e7ef6624040ba0b7381221e3a"
   end
 
   resource "man" do
-    url "https://www.kernel.org/pub/software/scm/git/git-manpages-2.12.2.tar.xz"
-    sha256 "7ed1da04e6b0f7fb54a3c7546c6a30fe999b5c8ffcf5e3418521e7550b7f9558"
+    url "https://www.kernel.org/pub/software/scm/git/git-manpages-2.13.0.tar.xz"
+    sha256 "8414f9c62e2b099cd0ea2ca22c55fb6538b13fc7a3ed1508fb9881aae42a97c9"
   end
 
   def install
