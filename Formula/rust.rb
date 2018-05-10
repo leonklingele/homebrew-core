@@ -8,8 +8,8 @@ class Rust < Formula
 
     resource "cargo" do
       url "https://github.com/rust-lang/cargo.git",
-          :tag => "0.25.0",
-          :revision => "8c93e089536467783957fec23b0f2627bb6ce357"
+          :tag => "0.26.0",
+          :revision => "41480f5cc50863600e05aa17d13264c88070436a"
     end
 
     resource "racer" do
