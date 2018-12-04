@@ -5,6 +5,7 @@ class Jpeg < Formula
   mirror "https://dl.bintray.com/homebrew/mirror/jpeg-9c.tar.gz"
   mirror "https://fossies.org/linux/misc/jpegsrc.v9c.tar.gz"
   sha256 "650250979303a649e21f87b5ccd02672af1ea6954b911342ea491f351ceb7122"
+  revision 1
 
   bottle do
     cellar :any
