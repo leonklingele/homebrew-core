@@ -3,10 +3,10 @@ class Xqilla < Formula
   homepage "https://xqilla.sourceforge.io/"
   url "https://downloads.sourceforge.net/project/xqilla/XQilla-2.3.4.tar.gz"
   sha256 "292631791631fe2e7eb9727377335063a48f12611d641d0296697e0c075902eb"
+  revision 1
 
   bottle do
     cellar :any
-    rebuild 1
     sha256 "93ae09129c45ee7b1a4ecfe996c305791e06833c1e73b604b33282e5ea90248a" => :mojave
     sha256 "38579e6ab1b6f6801ca5404cc79fcd972f395b9dd2e981672889b3eac5441c86" => :high_sierra
     sha256 "0f1ef8f2aa1349b723062426a3e44fba2821bcf93316bacabf4c5e2948093bc4" => :sierra
