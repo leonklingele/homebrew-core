@@ -2,6 +2,7 @@ class GitSecret < Formula
   desc "Bash-tool to store the private data inside a git repo"
   homepage "https://sobolevn.github.io/git-secret/"
   head "https://github.com/sobolevn/git-secret.git"
+  revision 1
 
   stable do
     url "https://github.com/sobolevn/git-secret/archive/v0.2.4.tar.gz"
@@ -17,7 +18,6 @@ class GitSecret < Formula
 
   bottle do
     cellar :any_skip_relocation
-    rebuild 1
     sha256 "0fb8db338cf111c40a9ddd2a4d02dcb7779c2f50c88364b118d7cb9442bdfb22" => :mojave
     sha256 "d7a78350338c3f42505215eb1c4d7e48309bf8e5495d1bb91b8517c05ba6398c" => :high_sierra
     sha256 "d7a78350338c3f42505215eb1c4d7e48309bf8e5495d1bb91b8517c05ba6398c" => :sierra
