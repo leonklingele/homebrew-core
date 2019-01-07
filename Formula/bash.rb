@@ -1,18 +1,15 @@
 class Bash < Formula
   desc "Bourne-Again SHell, a UNIX command interpreter"
   homepage "https://www.gnu.org/software/bash/"
+  url "https://ftp.gnu.org/gnu/bash/bash-5.0.tar.gz"
+  mirror "https://mirrors.ocf.berkeley.edu/gnu/bash/bash-5.0.tar.gz"
+  mirror "https://mirrors.kernel.org/gnu/bash/bash-5.0.tar.gz"
+  mirror "https://ftpmirror.gnu.org/bash/bash-5.0.tar.gz"
+  mirror "https://gnu.cu.be/bash/bash-5.0.tar.gz"
+  mirror "https://mirror.unicorncloud.org/gnu/bash/bash-5.0.tar.gz"
+  sha256 "b4a80f2ac66170b2913efbfb9f2594f1f76c7b1afd11f799e22035d63077fb4d"
+  version "5.0.0"
   head "https://git.savannah.gnu.org/git/bash.git"
-
-  stable do
-    url "https://ftp.gnu.org/gnu/bash/bash-5.0.tar.gz"
-    mirror "https://mirrors.ocf.berkeley.edu/gnu/bash/bash-5.0.tar.gz"
-    mirror "https://mirrors.kernel.org/gnu/bash/bash-5.0.tar.gz"
-    mirror "https://ftpmirror.gnu.org/bash/bash-5.0.tar.gz"
-    mirror "https://gnu.cu.be/bash/bash-5.0.tar.gz"
-    mirror "https://mirror.unicorncloud.org/gnu/bash/bash-5.0.tar.gz"
-    sha256 "b4a80f2ac66170b2913efbfb9f2594f1f76c7b1afd11f799e22035d63077fb4d"
-    version "5.0.0"
-  end
 
   bottle do
     sha256 "146666182c1443133ee6aa3a6f4ed35867dae4cb431f78e2ffb6e9faaf2d7394" => :mojave
