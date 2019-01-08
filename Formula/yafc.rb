@@ -4,7 +4,7 @@ class Yafc < Formula
   url "https://mirrors.ocf.berkeley.edu/debian/pool/main/y/yafc/yafc_1.3.7.orig.tar.xz"
   mirror "https://mirrorservice.org/sites/ftp.debian.org/debian/pool/main/y/yafc/yafc_1.3.7.orig.tar.xz"
   sha256 "4b3ebf62423f21bdaa2449b66d15e8d0bb04215472cb63a31d473c3c3912c1e0"
-  revision 2
+  revision 3
 
   bottle do
     sha256 "0f008ef8835a41818a9134d5acf03e0832feb7d52a463f005279c10e745a4d15" => :mojave
