@@ -39,6 +39,12 @@ class Go < Formula
   end
 
   def install
+    # Temporary workaround for garbage folders which were included in the 1.11.5 release tarball
+    mv Dir.glob("go/*"), "./"
+    rm_rf "go"
+    rm_rf "gocache"
+    rm_rf "tmp"
+
     (buildpath/"gobootstrap").install resource("gobootstrap")
     ENV["GOROOT_BOOTSTRAP"] = buildpath/"gobootstrap"
 
