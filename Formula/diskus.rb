@@ -12,6 +12,7 @@ class Diskus < Formula
 
   test do
     (testpath/"test.txt").write("Hello World")
-    assert_match /(\d+) B \(\1 bytes\)/, shell_output("#{bin}/diskus #{testpath}/test.txt")
+    output = shell_output("#{bin}/diskus #{testpath}/test.txt")
+    assert_match /(\d+) B \(\1 bytes\)/, output
   end
 end
