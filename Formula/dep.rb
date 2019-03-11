@@ -25,7 +25,7 @@ class Dep < Formula
       ENV["DEP_BUILD_PLATFORMS"] = "darwin"
       ENV["DEP_BUILD_ARCHS"] = "amd64"
       system "hack/build-all.bash"
-      bin.install "release/dep-darwin-#{arch}" => "dep"
+      bin.install "release/dep-darwin-amd64" => "dep"
       prefix.install_metafiles
     end
   end
