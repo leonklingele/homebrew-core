@@ -22,6 +22,8 @@ class Qt < Formula
   depends_on "pkg-config" => :build
   depends_on :xcode => :build
 
+  depends_on :macos => :sierra
+
   def install
     args = %W[
       -verbose
